@@ -1,0 +1,123 @@
+body {
+  background-color: #ffffcc;
+}
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+.header {
+  justify-content: end;
+  display: flex;
+  background: url("自己紹介ポートフォリオサイト/DUO集合写真.jpg");
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+}
+
+.headlist {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+
+  font-size: 100px;
+  font-family: "Amatic SC", cursive;
+}
+
+.pointMe {
+  position: absolute;
+  top: 1000px;
+  right: 200px;
+
+  font-size: 50px;
+  font-family: "Amatic SC", cursive;
+  color: hotpink;
+}
+
+.DUO {
+  position: relative;
+  width: 100%;
+}
+
+.about-me {
+  display: flex;
+}
+
+.about-me-title {
+  font-size: 70px;
+  font-family: "Amatic SC", cursive;
+  margin-left: 400px;
+  margin-bottom: 50px;
+}
+
+.mylist {
+  list-style: none;
+  font-size: 50px;
+  font-family: "Amatic SC", cursive;
+  flex-direction: column;
+}
+
+.mydata {
+  margin-left: 300px;
+}
+
+.me {
+  width: 500px;
+  border-radius: 50%;
+}
+
+.ultimate {
+  display: flex;
+  margin-top: 50px;
+}
+
+.playultimate {
+  width: 700px;
+  margin-left: auto;
+}
+
+.ultimatelist {
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+.ultimate-title {
+  font-size: 70px;
+  font-family: "Amatic SC", cursive;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+.ultimate-detail1 {
+  font-size: 20px;
+}
+
+.cake {
+  width: 500px;
+}
+
+.cafe-hop {
+  display: flex;
+  margin-top: 50px;
+}
+
+.cafelist {
+  list-style: none;
+}
+
+.cafe-title {
+  font-size: 70px;
+  font-family: "Amatic SC", cursive;
+  margin-left: 300px;
+  margin-bottom: 100px;
+}
+
+.cafe-detail1 {
+  font-size: 20px;
+  margin: 50px;
+}
